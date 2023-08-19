@@ -64,23 +64,22 @@
 				"inputs": [
 					{
 						"internalType": "address",
-						"name": "addressTo",
+						"name": "addressFrom",
+						"type": "address"
+					},
+					{
+						"internalType": "address",
+						"name": "addressTO",
 						"type": "address"
 					},
 					{
 						"internalType": "uint256",
-						"name": "amount",
+						"name": "allowed",
 						"type": "uint256"
 					}
 				],
-				"name": "_transfer",
-				"outputs": [
-					{
-						"internalType": "bool",
-						"name": "",
-						"type": "bool"
-					}
-				],
+				"name": "allow",
+				"outputs": [],
 				"stateMutability": "nonpayable",
 				"type": "function"
 			},
@@ -207,6 +206,30 @@
 				"inputs": [
 					{
 						"internalType": "address",
+						"name": "recipient",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "amount",
+						"type": "uint256"
+					}
+				],
+				"name": "transfer",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
 						"name": "addressFrom",
 						"type": "address"
 					},
@@ -222,8 +245,14 @@
 					}
 				],
 				"name": "transferFrom",
-				"outputs": [],
-				"stateMutability": "payable",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "nonpayable",
 				"type": "function"
 			}
 		],
@@ -255,11 +284,11 @@
 	},
 	"sources": {
 		"contracts/BUNN_Token.sol": {
-			"keccak256": "0x0f122db3d6aa025c3e86d954dd024989d2afb7fac22545adb3c6a49ea768ebac",
+			"keccak256": "0x97250f204ff4f7d32ab7de6324fe6f6babea9eb67a0bd1f3ed656ce69ff4f9ef",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://524c6772c1f7c83b9171fe41e0191fc0efc52bbeb5ac2acf9197e75ae9069b9d",
-				"dweb:/ipfs/QmP4jXPHZncsvtAPwi6jhmmwNLDrDzqwUgrBjFHPGX3onN"
+				"bzz-raw://30715c74426beed95391c4a065ec1bf94f8ee8908ea9234aef464e2de45f595d",
+				"dweb:/ipfs/QmfLcKfYVD21CHTrBWHETbBn1hwahguicm54PQzCwD8vT6"
 			]
 		}
 	},
