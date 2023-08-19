@@ -6,6 +6,11 @@
 	"output": {
 		"abi": [
 			{
+				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
 				"inputs": [
 					{
 						"internalType": "address",
@@ -62,6 +67,25 @@
 				],
 				"stateMutability": "view",
 				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"name": "users",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
 			}
 		],
 		"devdoc": {
@@ -92,11 +116,11 @@
 	},
 	"sources": {
 		"contracts/BUNN_Token.sol": {
-			"keccak256": "0x7f4a08a9bb48bf96ea6c1d863b9ce1dd11cc37ef9de087b4e7e2b1f6be9b5dff",
+			"keccak256": "0x2f34f7ec0e9f06fcc63b713a02d8e8c33e335ae42e41459c97db1d7230c82272",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://c5b6b03754738b7424e03dafc1617575eba7b5288bf4b0a1360114d1395de7ad",
-				"dweb:/ipfs/QmT5a4LJZQEp7461w7v9o1pn9QSGHWEhmskpzBEHypzNp6"
+				"bzz-raw://c19624b1e99d6c10e84d67c5a427cb335e490be9e67954f9184ec6171426a832",
+				"dweb:/ipfs/QmNmgTPcMUcDagjzmyeFN46L83J6qkTphJRTaexBmsYADA"
 			]
 		}
 	},
