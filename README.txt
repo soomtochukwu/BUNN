@@ -69,6 +69,6 @@ The APPROVE function allows an address to approve another address to spend a
 certain number of tokens on its behalf.
  
 
-The contract emits two events: TRANSFER and APPROVAL, which provide
-information about token transfers and allowance approvals. It is meant to
+The contract emits three events: TRANSFER and APPROVAL and the additional BURN event,
+which provide information about token transfers and allowance approvals. It is meant to
 change the state of the EVM
