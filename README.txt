@@ -70,5 +70,5 @@ certain number of tokens on its behalf.
  
 
 The contract emits three events: TRANSFER and APPROVAL and the additional BURN event,
-which provide information about token transfers and allowance approvals. It is meant to
+which provide information about token transfers, allowance approvals and burning. It is meant to
 change the state of the EVM
